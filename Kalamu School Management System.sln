@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalamu School Management System", "Kalamu School Management System.csproj", "{9C244A49-B6A0-4094-B1B7-D33634D6D54B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C244A49-B6A0-4094-B1B7-D33634D6D54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C244A49-B6A0-4094-B1B7-D33634D6D54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C244A49-B6A0-4094-B1B7-D33634D6D54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C244A49-B6A0-4094-B1B7-D33634D6D54B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D24010C5-9F45-4BAB-AAC3-B8BE4094F333}
+	EndGlobalSection
+EndGlobal
