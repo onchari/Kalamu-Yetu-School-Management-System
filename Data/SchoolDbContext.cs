@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Kalamu_School_Management_System.Models.Entities;
 
 namespace Kalamu_School_Management_System.Data
 {
@@ -12,5 +13,6 @@ namespace Kalamu_School_Management_System.Data
         {
 
         }
+        public DbSet<School> School { get; set; }
     }
 }

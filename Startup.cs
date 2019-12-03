@@ -34,7 +34,8 @@ namespace Kalamu_School_Management_System
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();  
+                    SchoolDbInitializer.Initialize(app);
             }
             else
             {
@@ -53,8 +54,10 @@ namespace Kalamu_School_Management_System
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=School}/{action=Index}/{id?}");
             });
         }
     }
+
+    
 }

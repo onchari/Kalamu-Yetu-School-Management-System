@@ -11,24 +11,24 @@ namespace Kalamu_School_Management_System.Models.Entities
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "School Name")]
+        [Display(Name = "Name")]
         public string Name { get; set; }
 
-        [Display(Name = "School Address")]
+        [Display(Name = "Address")]
         [Required]
         public string Address { get; set; }
 
-        [Display(Name = "School Phone Primary")]
+        [Display(Name = "Primary Phone")]
         [Required]
         public string PhonePrimary { get; set; }
 
-        [Display(Name = "School Phone Alt")]
+        [Display(Name = "Alternative Phone")]
         public string PhoneAlt { get; set; }
 
-        [Display(Name = "School Fax")]
+        [Display(Name = "Fax")]
         public string Fax { get; set; }
 
-        [Display(Name = "School Email")]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
         [Display(Name = "Logo")]
